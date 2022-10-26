@@ -8,7 +8,7 @@ app.use(cors());
 const courses = require('./Data/courses.json');
 
 app.get('/', (req, res) => {
-  res.send('Server of 007 is on the way....')
+  res.send('Only for Tech Learners....')
 })
 
 app.get('/courses',(req,res)=>{
@@ -21,5 +21,5 @@ app.get('/courses/:id',(req,res)=>{
 })
 
 app.listen(port, () => {
-  console.log(`i am server of Your site ${port}`)
+  console.log(`i am server of Tech Learning site ${port}`)
 })
