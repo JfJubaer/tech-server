@@ -21,5 +21,5 @@ app.get('/courses/:id',(req,res)=>{
 })
 
 app.listen(port, () => {
-  console.log(`i am server of Tech Learning site ${port}`)
+  console.log(`i am server of Tech Learning site at port ${port}`)
 })
